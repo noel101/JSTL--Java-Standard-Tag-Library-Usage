@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form  method="post" action='/JstlDemo/ContactInfoServlet'>
+  Address:<br>
+  <input type="text" name="address" value="">
+  <br>
+  City:<br>
+  <input type="text" name="city" value="">
+  <br>
+  State:<br>
+  <input type="text" name="state" value="">
+  <br>
+  Country:<br>
+  <input type="text" name="country" value="">
+  <br>
+   Phone:<br>
+  <input type="text" name="phone" value="">
+  <br>
+  <br>
+	
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Click on submit to go to Bank info".</p>
+<!--<script>
+	function returnParameters() {
+		var url = window.location.href;
+		var parameters = {};
+		if(url.indexOf('?')>-1) {
+			url = url.split('?')[1];
+			url = url.split('&');
+			for(var i = 0; i <url.length; i++) {
+				parameters[url[i].split('=')[0]] = url[i].split('=')[1];
+			}
+		}
+		console.log("Parameters from previous page~~:", parameters);
+		return parameters;
+	}
+	returnParameters();
+</script>-->
+</body>
+</html>
